@@ -141,9 +141,11 @@ is doing what you've scripted — a person can wave a flashlight, or you can nar
 it aloud.
 
 **Are there things that seemed better on paper than when acted out?**
+
 It’s difficult to illustrate the interaction of crossing the street on paper, but it can be portrayed very vividly in real life.
 
 **Did new ideas about the piece surface once you were on your feet?**
+
 We're considering whether we should introduce more variables, such as multiple traffic lights or having someone act as a car crossing the street.
 
 **Are there key moments in the interaction where things could go in a different direction?**
@@ -176,9 +178,9 @@ video feed of whichever scene you want to capture.)
 
 **Include your first attempts at recording the wizarded set-up here.**
 
-We used the App: Traffic lights to help us simulate the effect.
+We used the App: Traffic lights to help us simulate the effect. It can auto change the light color in specific time frame.
 
-<img width="300" height="600" alt="b3ed0c646911fc80db8567b681d5d2dd" src="https://github.com/user-attachments/assets/1275ceb9-8493-4f44-b335-0161633a419f" />
+<img width="200" height="400" alt="b3ed0c646911fc80db8567b681d5d2dd" src="https://github.com/user-attachments/assets/1275ceb9-8493-4f44-b335-0161633a419f" />
 
 ## Part E. (optional) Costume the Device
 
