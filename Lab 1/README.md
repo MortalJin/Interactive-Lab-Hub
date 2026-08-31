@@ -180,7 +180,7 @@ video feed of whichever scene you want to capture.)
 
 We used the App: Traffic lights to help us simulate the effect. It can auto change the light color in specific time frame.
 
-<img width="200" height="400" alt="b3ed0c646911fc80db8567b681d5d2dd" src="https://github.com/user-attachments/assets/1275ceb9-8493-4f44-b335-0161633a419f" />
+<img width="100" height="200" alt="b3ed0c646911fc80db8567b681d5d2dd" src="https://github.com/user-attachments/assets/1275ceb9-8493-4f44-b335-0161633a419f" />
 
 ## Part E. (optional) Costume the Device
 
@@ -209,6 +209,7 @@ https://youtu.be/_Ae3ooEInDg?is=96d1vOwXOpMAWMup
 https://youtu.be/kv82JwIRP2Y?is=swmY_6droZx5jsoQ
 
 Thank you for Omar, Yangchen and the App: Traffic lights
+
 **Please indicate who you collaborated with on this lab.** Be generous in
 acknowledging their contributions, and credit any other influences (YouTube,
 Github, Twitter, a friend who lent you a lamp) that informed your recreation.
