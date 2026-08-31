@@ -92,6 +92,14 @@ the interaction*:
 **Describe your masterwork here, in your own words. What is the core interaction
 someone would recognize it by?**
 
+** The first traffic light was created in London in 1868 for horse carousels. It only had two colors: red and green gas lamps at night. It was manually operated by a police constable for managing horse-drawn traffic and pedestrians. The 3 colors, red, yellow, and green weren't invented for road traffic — they were borrowed from the railroads, which had used colored signal lights since the 1830s.
+
+William Potts, a Detroit police officer, created the modern three-color traffic light in 1920 for automobile drivers. The amber light was added specifically because two-color signals didn't give motorists at higher speeds enough warning to stop safely.
+
+The colors (Red, Green, Amber) are inputs to the user. Based on the color, the user will respond with a given action. For example, when the color is green, the user can go; or when red, the user must stop.
+Pedestrians and automobile drivers are present. The color of the traffic light dictates the user's actions.
+The piece is famous for managing the traffic and movement of pedestrians and drivers within a given intersection of two or more roads. It, as a result of proper management, ensures the safety of the public. Strengths are public safety, and the weakness is traffic jam due to static traffic light schedules. Another weakness could be the reliance on the traffic lights - if they no longer operate, our users can't safely interact with it. **
+
 ## Part A. Plan
 
 For your masterwork, reconstruct the interaction as a scene:
