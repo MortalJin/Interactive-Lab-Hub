@@ -205,7 +205,10 @@ who doesn't should come away understanding what it's famous for. How might you i
 **Include your video here.**
 
 https://youtu.be/_Ae3ooEInDg?is=96d1vOwXOpMAWMup
+
 https://youtu.be/kv82JwIRP2Y?is=swmY_6droZx5jsoQ
+
+Thank you for Omar, Yangchen and the App: Traffic lights
 **Please indicate who you collaborated with on this lab.** Be generous in
 acknowledging their contributions, and credit any other influences (YouTube,
 Github, Twitter, a friend who lent you a lamp) that informed your recreation.
