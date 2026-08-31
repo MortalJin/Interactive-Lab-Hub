@@ -112,6 +112,10 @@ For your masterwork, reconstruct the interaction as a scene:
 - **Goals:** What is each player trying to do?
 
 **Describe your setting, players, activity, and goals here.**
+- **Setting:** This interaction happens on the road at a crossing or intersection.
+- **Players:** Most of the time, Pedestrians, motobike/bike riders, and cars.
+- **Activity:** When players see the red light, they will stop. When they see the yellow light, they know it's ready to go. When they see the green light, they know they can move on and cross, so they will start walking.
+- **Goals:** Everyone is trying to get to their destination by crossing the road.
 
 Now **sketch a 3 storyboards** of the interaction you are recreating. (The number may depend on the thing you drew, but stretch your thinking!) They
 don't need to be beautiful, but they must capture and communicate not only the behavior of the light, but how it affects
@@ -127,7 +131,8 @@ Use the storyboards to decide what interaction to prototype.
 **Summarize the feedback you got here.**
 
 From the storyboard we drew, we derived three main events that show the three functions of the traffic light. First is the red light, which means
-stop. Second is the yellow light, which means the light gonna be change to green, people can be ready to go. The last is a green light, which means people can safely cross the road.
+stop. Second is the yellow light, which means the light gonna be change to green, people can be ready to go. 
+The last is a green light, which means people can safely cross the road.
 
 ## Part B. Act out the Interaction
 
@@ -136,11 +141,15 @@ is doing what you've scripted — a person can wave a flashlight, or you can nar
 it aloud.
 
 **Are there things that seemed better on paper than when acted out?**
+It’s difficult to illustrate the interaction of crossing the street on paper, but it can be portrayed very vividly in real life.
 
 **Did new ideas about the piece surface once you were on your feet?**
+We're considering whether we should introduce more variables, such as multiple traffic lights or having someone act as a car crossing the street.
 
 **Are there key moments in the interaction where things could go in a different direction?**
 Iterate your storyboards to capture key non-sequential aspects of the interaction. 
+
+It is possible. For example, a pedestrian might be looking at their phone and miss the green light, or ignore the red light.
 
 ## Part C. Prototype the Light (light first!)
 
