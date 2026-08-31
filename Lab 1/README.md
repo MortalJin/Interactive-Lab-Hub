@@ -126,6 +126,9 @@ Use the storyboards to decide what interaction to prototype.
 
 **Summarize the feedback you got here.**
 
+From the storyboard we drew, we derived three main events that show the three functions of the traffic light. First is the red light, which means
+stop. Second is the yellow light, which means the light gonna be change to green, people can be ready to go. The last is a green light, which means people can safely cross the road.
+
 ## Part B. Act out the Interaction
 
 Physically act out the interaction you planned. For now, just pretend the light
