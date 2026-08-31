@@ -112,6 +112,8 @@ and the people around it. If you're new to storyboarding, read
 
 **Include pictures of your storyboards here.**
 
+[Lab 1_Story Board.pdf](https://github.com/user-attachments/files/31624246/Lab.1_Story.Board.pdf)
+
 Use the storyboards to decide what interaction to prototype.
 
 **Summarize the feedback you got here.**
