@@ -165,6 +165,7 @@ video feed of whichever scene you want to capture.)
 **Include your first attempts at recording the wizarded set-up here.**
 
 We used the App: Traffic lights to help us simulate the effect.
+
 <img width="300" height="600" alt="b3ed0c646911fc80db8567b681d5d2dd" src="https://github.com/user-attachments/assets/1275ceb9-8493-4f44-b335-0161633a419f" />
 
 ## Part E. (optional) Costume the Device
