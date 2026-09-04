@@ -230,6 +230,20 @@ wasn't clear.
 **Who were the other groups you kibitzed with? Add links to their project pages here.**
 **Summarize the feedback you got from your partners here.**
 
+Vasudha Devkota's Group
+
+https://github.com/vd269-dot/Vasudha-Lab-Hub/tree/Fall2026/Lab%201
+
+Rohil Saraf's Group
+
+https://github.com/rohilsaraf97/Interactive-Lab-Hub/blob/Fall2026/Lab%201/README.md
+
+Zhimeng Zhang's Group
+
+https://github.com/alinappatel/Alina---Lab-hub-/blob/Fall2026/Lab%201/README.md
+
+Feedback:
+
 ## Remix, Update, or Critique the Master
 
 Now that you understand your masterwork from the inside, respond to it. Do the
