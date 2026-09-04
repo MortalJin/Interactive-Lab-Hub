@@ -239,7 +239,7 @@ https://github.com/rohilsaraf97/Interactive-Lab-Hub/blob/Fall2026/Lab%201/README
 Zhimeng Zhang's Group
 https://github.com/alinappatel/Alina---Lab-hub-/blob/Fall2026/Lab%201/README.md
 
-Feedback:
+Summarized Feedback:
 
 The storyboard, captions, and videos were clear, and the second video communicated the concept more effectively. 
 The red-light/green-light interaction felt too obvious, so we could explore more varied reactions, such as someone refusing to follow the rule or, when they are angry, not wanting to follow it. 
