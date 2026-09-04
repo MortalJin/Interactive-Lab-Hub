@@ -241,6 +241,10 @@ https://github.com/alinappatel/Alina---Lab-hub-/blob/Fall2026/Lab%201/README.md
 
 Feedback:
 
+The storyboard, captions, and videos were clear, and the second video communicated the concept more effectively. 
+The red-light/green-light interaction felt too obvious, so we could explore more varied reactions, such as someone refusing to follow the rule or, when they are angry, not wanting to follow it. 
+The traffic light should also be larger, filling the entire screen. Creating the interaction in a more abstract way using motion/body sensors could be another approach.
+
 ## Remix, Update, or Critique the Master
 
 Now that you understand your masterwork from the inside, respond to it. Do the
