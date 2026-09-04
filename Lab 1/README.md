@@ -231,15 +231,12 @@ wasn't clear.
 **Summarize the feedback you got from your partners here.**
 
 Vasudha Devkota's Group
-
 https://github.com/vd269-dot/Vasudha-Lab-Hub/tree/Fall2026/Lab%201
 
 Rohil Saraf's Group
-
 https://github.com/rohilsaraf97/Interactive-Lab-Hub/blob/Fall2026/Lab%201/README.md
 
 Zhimeng Zhang's Group
-
 https://github.com/alinappatel/Alina---Lab-hub-/blob/Fall2026/Lab%201/README.md
 
 Feedback:
