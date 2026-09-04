@@ -266,7 +266,7 @@ your response engages with what your master was really doing.
 **Document everything here — especially the storyboard and video. Photos of the
 prototype are great too.**
 
-Draft Story Board
+**Draft Story Board**
 
 <img width="200" height="300" alt="9d93c505890a3ca5492546ce81e82ddc" src="https://github.com/user-attachments/assets/e55ad443-a154-489a-8396-4f90df8c2e67" />
 
@@ -274,7 +274,7 @@ Draft Story Board
 
 <img width="200" height="300" alt="bd4cd6b94e206751493d573a910c7287" src="https://github.com/user-attachments/assets/2b11dcf8-79a6-4793-a1d0-3174605d62f0" />
 
-Prototype
+**Prototype**
 
 <img width="400" height="500" alt="d3735ff8958fd5c5d46fdf18aa5dcaee" src="https://github.com/user-attachments/assets/285a0de1-3829-4cd2-a950-a546845d9998" />
 
