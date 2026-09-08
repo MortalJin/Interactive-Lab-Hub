@@ -296,6 +296,14 @@ Interaction #3: https://youtu.be/eIBzgmAFHv8?si=BNJSpauGhBa9e4PF
 
 **Reflection**
 
+When we were introduced to the lab assignment, we weren't quite sure what to do. We didn't fully understand the problem statement or its purpose at first. The piece we were assigned was "The Traffic Light." It seemed too trivial to simply simulate how one traffic light works — and that was exactly the point. We weren't supposed to simulate how it works, but rather how various users would interact with it. We didn't grasp that distinction at the time.
+
+We downloaded a traffic light simulator from the app store, used it to simulate a traffic light, and acted out a very basic interaction: one traffic light, one user, one behavior — the lawful driver. When the light is red, the driver stops; yellow, the driver gets ready; green, the driver goes. We recorded this for our video.
+
+The following week, when we showed it to our peers, they said exactly what we'd been thinking ourselves: it was too trivial. By contrast, the group assigned the Rain Room piece had identified a clear opposition at the core of their piece — wherever movement is detected, rain does not fall — and abstracted it using video editing software. While our representation was obvious and literal, theirs was abstracted to the point that you couldn't guess the original piece just by watching their video.
+
+We concluded that we needed to meet in the middle: more creative and more abstract, without losing clarity. So we developed more elaborate interactions involving multiple traffic lights and several cases: a successful interaction (all lawful drivers, traffic lights operating normally), an unlawful driver, and a scenario where the traffic lights stop working entirely (say, due to a power outage). We also planned a stronger prototype to better showcase our creativity and craftsmanship.
+
 ---
 
 
