@@ -268,11 +268,11 @@ prototype are great too.**
 
 **Draft Story Board**
 
-<img width="200" height="300" alt="9d93c505890a3ca5492546ce81e82ddc" src="https://github.com/user-attachments/assets/e55ad443-a154-489a-8396-4f90df8c2e67" />
+<img width="200" height="400" alt="9d93c505890a3ca5492546ce81e82ddc" src="https://github.com/user-attachments/assets/e55ad443-a154-489a-8396-4f90df8c2e67" />
 
-<img width="200" height="300" alt="42c3e3bfb4431821cb0dc05a8807b02d" src="https://github.com/user-attachments/assets/39018998-4928-4395-9fb2-47c252659198" />
+<img width="200" height="400" alt="42c3e3bfb4431821cb0dc05a8807b02d" src="https://github.com/user-attachments/assets/39018998-4928-4395-9fb2-47c252659198" />
 
-<img width="200" height="300" alt="bd4cd6b94e206751493d573a910c7287" src="https://github.com/user-attachments/assets/2b11dcf8-79a6-4793-a1d0-3174605d62f0" />
+<img width="200" height="400" alt="bd4cd6b94e206751493d573a910c7287" src="https://github.com/user-attachments/assets/2b11dcf8-79a6-4793-a1d0-3174605d62f0" />
 
 **Prototype**
 
