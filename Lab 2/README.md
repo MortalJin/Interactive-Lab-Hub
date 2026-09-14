@@ -206,6 +206,13 @@ We strongly discourage literal digital or analog clock display: Be creative.
 
 
 
+**Each large block represents six hours and contains 24 mini-blocks. Each mini-block represents 15 minutes. As time passes, completed mini-blocks gradually fill with the color associated with that period of the day.**
+
+**My clock prioritizes awareness of time over precise timekeeping. The block display divides the day into four meaningful phases and makes the passage of time visually tangible. Users can understand their position within the day at a glance, while pressing a button reveals the exact remaining time when precision is needed.**
+
+**Pressing a button switches between time elapsed and time remaining. The abstract block display provides ambient awareness of time. 
+Pressing a button temporarily reveals the exact time remaining, creating a stronger sense of urgency without turning the default display into a conventional digital clock.**
+
 **Put the names of the people you gave feedback to here. (Even better, add links to their repos here!)**
 
 # Lab 2 Part 2
