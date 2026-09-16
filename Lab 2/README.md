@@ -214,6 +214,15 @@ We strongly discourage literal digital or analog clock display: Be creative.
 Pressing a button temporarily reveals the exact time remaining, creating a stronger sense of urgency without turning the default display into a conventional digital clock.**
 
 **Put the names of the people you gave feedback to here. (Even better, add links to their repos here!)**
+https://github.com/bh654-dev/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md
+
+https://github.com/TonyW755/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md
+
+**Yanshen** https://github.com/ys2473/Interactive-Lab-Hub/tree/Fall2026/Lab%202
+
+**Zhimeng Zhang** https://github.com/Flora130/Interactive-Lab-Hub/tree/Fall2026/Lab%202
+
+**Simin Xu** https://github.com/Simonehina/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md
 
 # Lab 2 Part 2
 
@@ -224,13 +233,7 @@ Pressing a button temporarily reveals the exact time remaining, creating a stron
 2. Look at and give feedback on the Part E. for at least 3 other people in the class and get 3 people to comment on your Part E!)
 **Put the feedback for your ideas here.**
 
-https://github.com/bh654-dev/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md
 
-https://github.com/TonyW755/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md
-
-https://github.com/Flora130/Interactive-Lab-Hub/tree/Fall2026/Lab%202
-
-https://github.com/Simonehina/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md
 
 
 
