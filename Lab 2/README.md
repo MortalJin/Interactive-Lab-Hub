@@ -224,6 +224,10 @@ Pressing a button temporarily reveals the exact time remaining, creating a stron
 2. Look at and give feedback on the Part E. for at least 3 other people in the class and get 3 people to comment on your Part E!)
 **Put the feedback for your ideas here.**
 
+https://github.com/bh654-dev/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md
+
+https://github.com/TonyW755/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md
+
 ## Update your Lab Hub
 
 [Update your Lab Hub](pull_updates/README.md) to get the latest content and requirements for Part 2.
