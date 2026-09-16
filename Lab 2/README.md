@@ -228,6 +228,12 @@ https://github.com/bh654-dev/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md
 
 https://github.com/TonyW755/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md
 
+https://github.com/Flora130/Interactive-Lab-Hub/tree/Fall2026/Lab%202
+
+https://github.com/Simonehina/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md
+
+
+
 ## Update your Lab Hub
 
 [Update your Lab Hub](pull_updates/README.md) to get the latest content and requirements for Part 2.
