@@ -166,6 +166,9 @@ You can look in `image.py` for an example of how to display an image on the scre
 
 <img width="480" height="640" alt="d0d85bb57d07285271ae0f0c744d5fb6" src="https://github.com/user-attachments/assets/7cbc80fe-ffc1-4442-9463-0dd02e1861d7" />
 
+<img width="320" height="426.75" alt="288006e01200f1555a0aa3f747d92913" src="https://github.com/user-attachments/assets/6335e1eb-8776-46eb-bf24-0afd9720c9ef" />
+
+
 
 ## Part D. 
 ### Set up the Display Clock Demo
