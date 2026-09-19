@@ -249,6 +249,10 @@ Start small, pick just one element of your overall idea, just to show you have a
 
 \*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
 
+**https://github.com/MortalJin/Interactive-Lab-Hub/blob/Fall2026/Lab%202/plant_clock.py**
+
+
+
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your barely modified PiClock.**\*\*\*
