@@ -253,7 +253,7 @@ Start small, pick just one element of your overall idea, just to show you have a
 
 \*\*\***Take a video of your barely modified PiClock.**\*\*\*
 
-https://youtube.com/shorts/nwxGnN7v8eA
+**https://youtube.com/shorts/nwxGnN7v8eA**
 
 
 
