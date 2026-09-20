@@ -214,6 +214,7 @@ Pressing a button temporarily reveals the exact time remaining, creating a stron
 
 **Put the names of the people you gave feedback to here. (Even better, add links to their repos here!)**
 
+
 **Shenye Wang** https://github.com/bh654-dev/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md
 
 **Tony Wang** https://github.com/TonyW755/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md
@@ -234,8 +235,8 @@ Pressing a button temporarily reveals the exact time remaining, creating a stron
 **Put the feedback for your ideas here.**
 
 **Feedback Summary**
-	The idea of my orginial clock is really stright forward and easy to understand. But the main feedback I received from it is, it is still a kind of visualized clock
-.
+
+	The idea of my orginial clock is really stright forward and easy to understand. But the main feedback I received from it is, it is still a kind of visualized clock.
 
 
 
@@ -252,6 +253,7 @@ Start small, pick just one element of your overall idea, just to show you have a
 
 
 \*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
+
 
 **https://github.com/MortalJin/Interactive-Lab-Hub/blob/Fall2026/Lab%202/plant_clock.py**
 
