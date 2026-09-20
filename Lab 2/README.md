@@ -213,9 +213,9 @@ We strongly discourage literal digital or analog clock display: Be creative.
 Pressing a button temporarily reveals the exact time remaining, creating a stronger sense of urgency without turning the default display into a conventional digital clock.**
 
 **Put the names of the people you gave feedback to here. (Even better, add links to their repos here!)**
-https://github.com/bh654-dev/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md
+**Shenye Wang** https://github.com/bh654-dev/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md
 
-https://github.com/TonyW755/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md
+**Tony Wang** https://github.com/TonyW755/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md
 
 **Yanshen** https://github.com/ys2473/Interactive-Lab-Hub/tree/Fall2026/Lab%202
 
