@@ -233,6 +233,9 @@ Pressing a button temporarily reveals the exact time remaining, creating a stron
 2. Look at and give feedback on the Part E. for at least 3 other people in the class and get 3 people to comment on your Part E!)
 **Put the feedback for your ideas here.**
 
+**Feedback Summary**
+	The idea of my orginial clock is really stright forward and easy to understand. But the main feedback I received from it is, it is still a kind of visualized clock
+.
 
 
 
