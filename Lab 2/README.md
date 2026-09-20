@@ -236,7 +236,7 @@ Pressing a button temporarily reveals the exact time remaining, creating a stron
 
 **Feedback Summary**
 
-	The idea of my orginial clock is really stright forward and easy to understand. But the main feedback I received from it is, it is still a kind of visualized clock.
+    The idea of my orginial clock is really stright forward and easy to understand. But the main feedback I received from it is that it is still a kind of visualized clock.
 
 
 
