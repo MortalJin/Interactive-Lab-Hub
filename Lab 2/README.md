@@ -274,7 +274,7 @@ Start small, pick just one element of your overall idea, just to show you have a
 
 <img width="428" height="428" alt="8b93e9bfe081351fbbf2a03c2a765891" src="https://github.com/user-attachments/assets/9b5cfcec-984b-453a-872a-9b466b8f98a1" />
 
-<img width="4284" height="4284" alt="574b9f2a8688d56c16b5523b4c15bfc8" src="https://github.com/user-attachments/assets/c87f8311-9e8d-4b2d-91fb-5f138b7f0d8f" />
+<img width="428" height="428" alt="574b9f2a8688d56c16b5523b4c15bfc8" src="https://github.com/user-attachments/assets/c87f8311-9e8d-4b2d-91fb-5f138b7f0d8f" />
 
 
 
