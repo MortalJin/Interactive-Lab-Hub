@@ -260,9 +260,9 @@ Start small, pick just one element of your overall idea, just to show you have a
 
 ** Insert any updates ideas, sketches, [Verplank diagrams](https://ccrma.stanford.edu/courses/250a-fall-2004/IDSketchbok.pdf))!, storyboards for your ideas **
 
-**After receiving feedback from several peers and discussing the matter with them, I drew inspiration from designs such as a gradually burning incense stick, a continuously melting ice cube, and a slowly ripening banana. These objects all express the passage of time through their own transformations. At first, I considered designing an ever-evolving organism, perhaps drawing on the process of human evolution; I also thought about using the human lifespan, from birth to old age, to symbolize time. However, I felt that the overall atmosphere of these concepts was somewhat heavy and pessimistic.**
+After receiving feedback from several peers and discussing the matter with them, I drew inspiration from designs such as a gradually burning incense stick, a continuously melting ice cube, and a slowly ripening banana. These objects all express the passage of time through their own transformations. At first, I considered designing an ever-evolving organism, perhaps drawing on the process of human evolution; I also thought about using the human lifespan, from birth to old age, to symbolize time. However, I felt that the overall atmosphere of these concepts was somewhat heavy and pessimistic.
 
-**Ultimately, I chose to use flowers as a symbol of time and redesigned the four time squares: a seed buried in the soil, a tender sprout breaking through the earth, growth and blooming, and the flower being picked. For me, picking a flower isn’t merely the end of a day; it also evokes the continuation of the seed and the beginning of the next cycle of life. Therefore, this cycle not only represents the passage of time but also embodies the dual meanings of “ending” and “new life.” Compared to my earlier concepts, this design is easier to understand and conveys a more positive sentiment.**
+Ultimately, I chose to use flowers as a symbol of time and redesigned the four time squares: a seed buried in the soil, a tender sprout breaking through the earth, growth and blooming, and the flower being picked. For me, picking a flower isn’t merely the end of a day; it also evokes the continuation of the seed and the beginning of the next cycle of life. Therefore, this cycle not only represents the passage of time but also embodies the dual meanings of “ending” and “new life.” Compared to my earlier concepts, this design is easier to understand and conveys a more positive sentiment.
 
 \*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
 
@@ -272,7 +272,8 @@ Start small, pick just one element of your overall idea, just to show you have a
 
 **Video: https://youtu.be/MgH_5LoQb20?is=sEO7arC4KNQuuwkW**
 
-**The demo video is sped up, showing the flower's changes over the course of a day in 60 seconds. Pressing the top button lets you water the flower, causing its appearance to change. Pressing the bottom button shows or hides the time.**
+The demo video is sped up, showing the flower's changes over the course of a day in 60 seconds. Pressing the top button lets you water the flower, causing its appearance to change. Pressing the bottom button shows or hides the time.
+
 
 **I want to extend a special thank you to the classmates who discussed this with me and provided feedback. The entire idea and concept came from me, and ChatGPT helped me with the code.**
 
