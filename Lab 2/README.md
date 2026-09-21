@@ -248,13 +248,13 @@ Start small, pick just one element of your overall idea, just to show you have a
 
 \*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
 
-**https://github.com/MortalJin/Interactive-Lab-Hub/blob/Fall2026/Lab%202/plant_clock.py**
+[Prototype code](plant_clock.py)  
 
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your barely modified PiClock.**\*\*\*
 
-**https://youtube.com/shorts/nwxGnN7v8eA**
+[Prototype video](https://youtube.com/shorts/nwxGnN7v8eA)
 
 ## Now, make your own PiClock
 
@@ -262,7 +262,7 @@ Start small, pick just one element of your overall idea, just to show you have a
 
 After receiving feedback from several peers and discussing the matter with them, I drew inspiration from designs such as a gradually burning incense stick, a continuously melting ice cube, and a slowly ripening banana. These objects all express the passage of time through their own transformations. At first, I considered designing an ever-evolving organism, perhaps drawing on the process of human evolution; I also thought about using the human lifespan, from birth to old age, to symbolize time. However, I felt that the overall atmosphere of these concepts was somewhat heavy and pessimistic.
 
-Ultimately, I chose to use flowers as a symbol of time and redesigned the four time squares: a seed buried in the soil, a tender sprout breaking through the earth, growth and blooming, and the flower being picked. For me, picking a flower isn’t merely the end of a day; it also evokes the continuation of the seed and the beginning of the next cycle of life. Therefore, this cycle not only represents the passage of time but also embodies the dual meanings of “ending” and “new life.” Compared to my earlier concepts, this design is easier to understand and conveys a more positive sentiment.
+Ultimately, I chose to use flowers as a symbol of time and redesigned the clock around five visual stages: a seed buried in the soil, a sprout breaking through the earth, a growing plant, a blooming flower, and finally, the flower being picked. For me, picking a flower isn’t merely the end of a day; it also evokes the continuation of the seed and the beginning of the next cycle of life. Therefore, this cycle not only represents the passage of time but also embodies the dual meanings of “ending” and “new life.” Compared to my earlier concepts, this design is easier to understand and conveys a more positive sentiment.
 
 \*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
 
