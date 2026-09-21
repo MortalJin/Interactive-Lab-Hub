@@ -288,6 +288,8 @@ Do take advantage of having done the previous iteration to refine and simplify y
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+**Video: https://youtu.be/MgH_5LoQb20?is=sEO7arC4KNQuuwkW**
+
 
 As always, make sure you document contributions and ideas from others (and AI) explicitly in your writeup.
 
