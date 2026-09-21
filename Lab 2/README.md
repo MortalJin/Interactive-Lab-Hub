@@ -238,9 +238,6 @@ Pressing a button temporarily reveals the exact time remaining, creating a stron
 
 My initial idea for the clock was very simple and straightforward. The main feedback I received was that it was still just a visual clock, and the function triggered by pressing the button was very dull and limited—it simply displayed the time remaining in the day. Further feedback indicated that the design and interaction were too boring and that relying solely on an image composed of multiple squares might require a great deal of time and effort to determine the current time. Therefore, I plan to iterate and modify the design to make it more creative and easier to understand. Also, I'd like to see more natural elements related to consumption or growth.
 
-
-
-
 ## Update your Lab Hub
 
 [Update your Lab Hub](pull_updates/README.md) to get the latest content and requirements for Part 2.
@@ -249,15 +246,9 @@ My initial idea for the clock was very simple and straightforward. The main feed
 
 Start small, pick just one element of your overall idea, just to show you have a handle on the code and components.
 
-
-
-
 \*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
 
-
 **https://github.com/MortalJin/Interactive-Lab-Hub/blob/Fall2026/Lab%202/plant_clock.py**
-
-
 
 ## Make a short video of your modified barebones PiClock
 
@@ -265,25 +256,13 @@ Start small, pick just one element of your overall idea, just to show you have a
 
 **https://youtube.com/shorts/nwxGnN7v8eA**
 
-
-
-After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
-
-```
-(venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 2 $ git add .
-(venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 2 $ git commit -m 'your commit message here'
-(venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 2 $ git push
-```
-
-After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
-
 ## Now, make your own PiClock
 
 ** Insert any updates ideas, sketches, [Verplank diagrams](https://ccrma.stanford.edu/courses/250a-fall-2004/IDSketchbok.pdf))!, storyboards for your ideas **
 
-  **After receiving feedback from several peers and discussing the matter with them, I drew inspiration from designs such as a gradually burning incense stick, a continuously melting ice cube, and a slowly ripening banana. These objects all express the passage of time through their own transformations. At first, I considered designing an ever-evolving organism, perhaps drawing on the process of human evolution; I also thought about using the human lifespan, from birth to old age, to symbolize time. However, I felt that the overall atmosphere of these concepts was somewhat heavy and pessimistic.**
+**After receiving feedback from several peers and discussing the matter with them, I drew inspiration from designs such as a gradually burning incense stick, a continuously melting ice cube, and a slowly ripening banana. These objects all express the passage of time through their own transformations. At first, I considered designing an ever-evolving organism, perhaps drawing on the process of human evolution; I also thought about using the human lifespan, from birth to old age, to symbolize time. However, I felt that the overall atmosphere of these concepts was somewhat heavy and pessimistic.**
 
-  **Ultimately, I chose to use flowers as a symbol of time and redesigned the four time squares: a seed buried in the soil, a tender sprout breaking through the earth, growth and blooming, and the flower being picked. For me, picking a flower isn’t merely the end of a day; it also evokes the continuation of the seed and the beginning of the next cycle of life. Therefore, this cycle not only represents the passage of time but also embodies the dual meanings of “ending” and “new life.” Compared to my earlier concepts, this design is easier to understand and conveys a more positive sentiment.**
+**Ultimately, I chose to use flowers as a symbol of time and redesigned the four time squares: a seed buried in the soil, a tender sprout breaking through the earth, growth and blooming, and the flower being picked. For me, picking a flower isn’t merely the end of a day; it also evokes the continuation of the seed and the beginning of the next cycle of life. Therefore, this cycle not only represents the passage of time but also embodies the dual meanings of “ending” and “new life.” Compared to my earlier concepts, this design is easier to understand and conveys a more positive sentiment.**
 
 \*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
 
