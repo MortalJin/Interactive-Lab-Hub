@@ -238,11 +238,13 @@ Pressing a button temporarily reveals the exact time remaining, creating a stron
 2. Look at and give feedback on the Part E. for at least 3 other people in the class and get 3 people to comment on your Part E!)
 **Put the feedback for your ideas here.**
 
-Yanshen: She felt that my original block-based concept was somewhat plain and did not create a particularly engaging or memorable experience.
+**Recorded Feedback**
 
-Zhimeng Zhang: She pointed out that the button interaction was too limited because it only revealed the remaining time. As a result, the project still functioned mainly as a conventional clock rather than offering a meaningful interaction.
+**Yanshen**: She felt that my original block-based concept was somewhat plain and did not create a particularly engaging or memorable experience.
 
-Simin Xu: She suggested that the abstract block display might require too much interpretation. A more recognizable visual transformation could make the passage of time easier to understand at a glance.
+**Zhimeng Zhang**: She pointed out that the button interaction was too limited because it only revealed the remaining time. As a result, the project still functioned mainly as a conventional clock rather than offering a meaningful interaction.
+
+**Simin Xu**: She suggested that the abstract block display might require too much interpretation. A more recognizable visual transformation could make the passage of time easier to understand at a glance.
 
 **Feedback Summary**
 
