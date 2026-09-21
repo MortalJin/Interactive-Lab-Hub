@@ -272,6 +272,12 @@ Start small, pick just one element of your overall idea, just to show you have a
 
 ** Insert any updates ideas, sketches, [Verplank diagrams](https://ccrma.stanford.edu/courses/250a-fall-2004/IDSketchbok.pdf))!, storyboards for your ideas **
 
+<img width="428" height="428" alt="8b93e9bfe081351fbbf2a03c2a765891" src="https://github.com/user-attachments/assets/9b5cfcec-984b-453a-872a-9b466b8f98a1" />
+
+<img width="4284" height="4284" alt="574b9f2a8688d56c16b5523b4c15bfc8" src="https://github.com/user-attachments/assets/c87f8311-9e8d-4b2d-91fb-5f138b7f0d8f" />
+
+
+
 After receiving feedback from several peers and discussing the matter with them, I drew inspiration from designs such as a gradually burning incense stick, a continuously melting ice cube, and a slowly ripening banana. These objects all express the passage of time through their own transformations. At first, I considered designing an ever-evolving organism, perhaps drawing on the process of human evolution; I also thought about using the human lifespan, from birth to old age, to symbolize time. However, I felt that the overall atmosphere of these concepts was somewhat heavy and pessimistic.
 
 Ultimately, I chose to use flowers as a symbol of time and redesigned the clock around five visual stages: a seed buried in the soil, a sprout breaking through the earth, a growing plant, a blooming flower, and finally, the flower being picked. For me, picking a flower isn’t merely the end of a day; it also evokes the continuation of the seed and the beginning of the next cycle of life. Therefore, this cycle not only represents the passage of time but also embodies the dual meanings of “ending” and “new life.” Compared to my earlier concepts, this design is easier to understand and conveys a more positive sentiment.
