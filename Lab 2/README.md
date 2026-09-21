@@ -290,6 +290,7 @@ Do take advantage of having done the previous iteration to refine and simplify y
 
 **Video: https://youtu.be/MgH_5LoQb20?is=sEO7arC4KNQuuwkW**
 
+**Code:https://github.com/MortalJin/Interactive-Lab-Hub/blob/Fall2026/Lab%202/refined_plant_clock.py**
 
 As always, make sure you document contributions and ideas from others (and AI) explicitly in your writeup.
 
