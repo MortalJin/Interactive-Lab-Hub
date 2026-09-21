@@ -164,6 +164,10 @@ You can look in `image.py` for an example of how to display an image on the scre
 <img width="480" height="640" alt="d0d85bb57d07285271ae0f0c744d5fb6" src="https://github.com/user-attachments/assets/7cbc80fe-ffc1-4442-9463-0dd02e1861d7" />
 <img width="320" height="426.75" alt="288006e01200f1555a0aa3f747d92913" src="https://github.com/user-attachments/assets/6335e1eb-8776-46eb-bf24-0afd9720c9ef" />
 
+*The Pi displaying its IP address and unique MAC address.*
+
+*Successful screen and button tests.*
+
 
 
 ## Part D. 
@@ -266,14 +270,13 @@ Ultimately, I chose to use flowers as a symbol of time and redesigned the clock 
 
 \*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
 
-**Code: https://github.com/MortalJin/Interactive-Lab-Hub/blob/Fall2026/Lab%202/refined_plant_clock.py**
+[Final PiClock code](refined_plant_clock.py)  
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
-**Video: https://youtu.be/MgH_5LoQb20?is=sEO7arC4KNQuuwkW**
+[Final PiClock video](https://youtu.be/MgH_5LoQb20)
 
 The demo video is sped up, showing the flower's changes over the course of a day in 60 seconds. Pressing the top button lets you water the flower, causing its appearance to change. Pressing the bottom button shows or hides the time.
 
 
-**I want to extend a special thank you to the classmates who discussed this with me and provided feedback. The entire idea and concept came from me, and ChatGPT helped me with the code.**
-
+I developed the core concept, interaction design, and visual direction of the project. Feedback from my classmates helped me move from the original abstract block display toward a more natural and understandable growth cycle. ChatGPT assisted with generating, organizing, and debugging portions of the Python code, as well as refining the flower-picking animation. I reviewed, adapted, and tested the final implementation on the Raspberry Pi.
