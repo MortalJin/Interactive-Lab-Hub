@@ -236,7 +236,7 @@ Pressing a button temporarily reveals the exact time remaining, creating a stron
 
 **Feedback Summary**
 
-The idea of my orginial clock is really stright forward and easy to understand. But the main feedback I received from it is that it is still a kind of visualized clock.
+My initial idea for the clock was very simple and straightforward. The main feedback I received was that it was still just a visual clock, and the function triggered by pressing the button was very dull and limited—it simply displayed the time remaining in the day. Further feedback indicated that the design and interaction were too boring and that relying solely on an image composed of multiple squares might require a great deal of time and effort to determine the current time. Therefore, I plan to iterate and modify the design to make it more creative and easier to understand. Also, I'd like to see more natural elements related to consumption or growth.
 
 
 
