@@ -177,11 +177,11 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 *A voice interface that allows users to speak with a simulated future version of themselves and leave messages that return at a later point in time.*
 
-Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses.
+
 
 \*\***Please describe and document your process.**\*\*
 
-Your script should include the pauses. Where does your device wait, and for how long? You now know from Part C that this is a parameter you have to choose, not something that happens for free.
+
 
 ### Expected Dialogue
 
@@ -194,6 +194,16 @@ Your script should include the pauses. Where does your device wait, and for how 
 *The device continues listening until the user has been silent for 0.8 seconds.*
 
 **User:** I am unsure whether I should commit to something that may not succeed.
+
+*After the user stops speaking, the device waits for 0.8 seconds before ending the turn.*
+
+**SATOR SQUARE:** I heard that you are deciding whether to commit to something that may not succeed. Is that correct?
+
+*The device waits for the user's confirmation. If the user remains silent for five seconds, it says: “Take your time. The line is still open.”*
+
+**User:** Yes.
+
+**Simulated Future Self:** I cannot tell you what happened. What would you regret not doing?
 
 *The Wizard listens to the response and selects one appropriate reflection card.*
 
