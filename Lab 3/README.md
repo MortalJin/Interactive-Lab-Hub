@@ -169,11 +169,20 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 \*\***Post your storyboard and diagram here.**\*\*
 
+## SATOR SQUARE Storyboard
+
+*Speak now. Hear yourself later.*
+
+<img width="428" height="348" alt="393e4957a9f310c57f0d86d54e2ca6f5" src="https://github.com/user-attachments/assets/87b9518e-0406-4f91-b689-022bdbb97bc6" />
+
+A voice interface that allows users to speak with a simulated future version of themselves and leave messages that return at a later point in time.
+
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses.
 
 \*\***Please describe and document your process.**\*\*
 
 Your script should include the pauses. Where does your device wait, and for how long? You now know from Part C that this is a parameter you have to choose, not something that happens for free.
+
 
 ## E. Acting out the dialogue
 
