@@ -181,39 +181,31 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 \*\***Please describe and document your process.**\*\*
 
-
-
-### Expected Dialogue
-
 **SATOR SQUARE:** Select a return point: tomorrow, one month, or one year.
 
 **User:** One month.
 
 **SATOR SQUARE:** Temporal channel open. This is a simulated connection to yourself one month from now. Tell me about a decision you have not been able to make.
 
-*The device continues listening until the user has been silent for 0.8 seconds.*
-
 **User:** I am unsure whether I should commit to something that may not succeed.
 
-*After the user stops speaking, the device waits for 0.8 seconds before ending the turn.*
+*After the user stops speaking, the device waits for 0.8 seconds of silence before ending the turn.*
 
 **SATOR SQUARE:** I heard that you are deciding whether to commit to something that may not succeed. Is that correct?
 
-*The device waits for the user's confirmation. If the user remains silent for five seconds, it says: “Take your time. The line is still open.”*
+*The device waits for the user’s confirmation. If the user remains silent for five seconds, it says, “Take your time. The line is still open.”*
 
 **User:** Yes.
 
-**Simulated Future Self:** I cannot tell you what happened. What would you regret not doing?
-
-*The Wizard listens to the response and selects one appropriate reflection card.*
+*The Wizard listens to the dilemma and selects one appropriate reflection card.*
 
 **Simulated Future Self:** I cannot tell you what happened. What would you regret not doing?
-
-*The device waits for 0.8 seconds of silence before ending the user's turn.*
 
 **User:** I would regret never finding out what I was capable of.
 
-**SATOR SQUARE:** Your answer has been sealed. You will hear your own voice again in one month. Connection closed.
+*After the user stops speaking, the device waits for 0.8 seconds of silence before sealing the answer.*
+
+**SATOR SQUARE:** Your answer has been sealed. Return date: October 27, 2026. You will hear your own voice again in one month. Connection closed.
 
 ### Alternative Response Cards
 
