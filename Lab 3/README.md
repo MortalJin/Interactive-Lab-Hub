@@ -183,6 +183,36 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 Your script should include the pauses. Where does your device wait, and for how long? You now know from Part C that this is a parameter you have to choose, not something that happens for free.
 
+### Expected Dialogue
+
+**SATOR SQUARE:** Select a return point: tomorrow, one month, or one year.
+
+**User:** One month.
+
+**SATOR SQUARE:** Temporal channel open. This is a simulated connection to yourself one month from now. Tell me about a decision you have not been able to make.
+
+*The device continues listening until the user has been silent for 0.8 seconds.*
+
+**User:** I am unsure whether I should commit to something that may not succeed.
+
+*The Wizard listens to the response and selects one appropriate reflection card.*
+
+**Simulated Future Self:** I cannot tell you what happened. What would you regret not doing?
+
+*The device waits for 0.8 seconds of silence before ending the user's turn.*
+
+**User:** I would regret never finding out what I was capable of.
+
+**SATOR SQUARE:** Your answer has been sealed. You will hear your own voice again in one month. Connection closed.
+
+### Alternative Response Cards
+
+- **Regret:** What would you regret not doing?
+- **Fear:** Are you choosing this because you want it, or because you fear the alternative?
+- **Control:** Which part of this decision is still under your control?
+- **Identity:** Which choice is closer to the person you want to become?
+- **Time:** Will this still matter to you one year from now?
+
 
 ## E. Acting out the dialogue
 
