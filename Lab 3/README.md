@@ -221,9 +221,11 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 ## E. Acting out the dialogue
 
-Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing. Please record this interaction (for example, using Zoom's record feature).
+https://youtu.be/3asdAFzKRhc
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
+When I acted out the interaction, the opening instructions felt clear and natural. The problem appeared when SATOR SQUARE asked the user a reflective question. The question was broad and slightly abstract, so the participant was not sure how to respond. This showed me two possible directions: the question should either be simpler and more universal, or more personalized based on what the user has just said. I also started to question what the returned message means after one month. During the first interaction, the question already creates a useful moment of reflection. However, simply replaying the recording one month later may feel like only a time capsule. To give the return more meaning, the device could ask the user to compare their past concern with how they feel now, turning the message into evidence of change rather than just an old recording.
 
 
 ---
