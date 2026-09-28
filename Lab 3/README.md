@@ -177,6 +177,8 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 *A voice interface that allows users to speak with a simulated future version of themselves and leave messages that return at a later point in time.*
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3611fbf4-8fd7-44f9-87a4-c21cf21e71d1" />
+
 
 
 \*\***Please describe and document your process.**\*\*
