@@ -50,11 +50,17 @@ A more complete system should check the number of digits before accepting the an
 
 \*\***Try both extremes, and something in between. Describe what each one feels like to talk to. Note specifically: at 0.2s, what kinds of normal speech get cut off? At 1.5s, what does the delay make the system seem like?**\*\*
 
-There is no correct value. A system that takes drink orders and a system that listens to someone think out loud want very different thresholds, and the right one depends on what your users are doing with their pauses.
+#### Endpointing Test
+
+| Silence Threshold | Experience |
+|---|---|
+| `0.2 s` | The system responded quickly, but it frequently ended the turn during normal pauses. Short breaths, filler words such as “uh,” and pauses between clauses caused one sentence to be divided into several fragments. For example, “And the team got a history for like, uh, 666 year” and “until now” were treated as separate turns. |
+| `0.8 s` | This produced the most natural rhythm. It allowed short thinking pauses without interrupting me, while still responding soon after I finished. Some unusually long sentences were still transcribed imperfectly, but the interaction did not feel either rushed or unresponsive. |
+| `1.5 s` | The system captured more complete utterances, but the silence after speaking felt noticeably long. Combined with approximately 1.1 seconds of transcription time, the total wait was around 2.6 seconds. This made the system seem slow and uncertain, as if it had not heard me or did not know that I had finished. |
+
+I selected `0.8 seconds` as the best compromise. It gives users enough room for ordinary pauses and brief moments of thought without making the system feel unresponsive.
 
 ## D. Storyboard
-
-Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.)
 
 \*\***Post your storyboard and diagram here.**\*\*
 
