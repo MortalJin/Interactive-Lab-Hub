@@ -19,24 +19,31 @@ The words were the same, but the greeting did not feel the same. One voice was l
 ## B. Speech to Text
 
 \*\***Record a few seconds of your own speech (`arecord -d 5 -f cd -c 1 -r 16000 test.wav`) and transcribe it with at least two model sizes. Report the real-time factor for each. At what point does the accuracy improvement stop being worth the delay, for a system that has to answer you?**\*\*
-### B. Speech to Text
 
-I recorded the same seven-second sentence and transcribed it using two Whisper model sizes.
+I recorded the seven-second audio file [`my_speech.wav`](speech-scripts/my_speech.wav) and used [`transcribe.py`](speech-scripts/transcribe.py) to transcribe the same recording with two Whisper model sizes.
 
-| Model | Transcription | Transcription Time | Real-Time Factor |
-|---|---|---:|---:|
-| `tiny.en` | “Hi, my name is Yang Chen and I'm a student and co-ner attack.” | 1.18 s | 0.17x |
-| `base.en` | “Hi, my name is Yang Chen and I'm a student in Cornell Tech.” | 2.29 s | 0.33x |
+| Model | Transcription | Audio Duration | Model Load | Transcription | Real-Time Factor |
+|---|---|---:|---:|---:|---:|
+| `tiny.en` | “Hi, my name is Yang Chen and I'm a student and co-ner attack.” | 7.00 s | 0.53 s | 1.18 s | 0.17x |
+| `base.en` | “Hi, my name is Yang Chen and I'm a student in Corner Tech.” | 7.00 s | 0.65 s | 2.29 s | 0.33x |
 
-The `base.en` model took about twice as long, but it correctly recognized “Cornell Tech,” while `tiny.en` did not. Since `base.en` was still much faster than real time, the improvement was worth the additional delay. For a responsive conversational system, `base.en` is where I would stop increasing the model size because a larger model would likely add more waiting for a smaller accuracy improvement.
+The `base.en` model took 1.11 seconds longer and had about twice the real-time factor of `tiny.en`. However, its transcription of “Cornell Tech” as “Corner Tech” was much closer and easier to understand than “co-ner attack.” Both models were still faster than real time, so the accuracy improvement was worth the additional delay. Based on this test, I would stop at `base.en` for a conversational system because a larger model could introduce more waiting for a smaller improvement in accuracy.
 
-### Numerical Input Test
+\*\***Write your own script that verbally asks for a numerical input (a phone number, zipcode, number of pets) and records the answer the respondent provides.**\*\*
 
-I created [`ask_zipcode.sh`](speech-scripts/ask_zipcode.sh). The script asks, “Please say your five-digit ZIP code after I finish speaking,” and records five seconds of audio before transcribing the answer.
+#### Numerical Input Test
 
-I intended to say `07306`, but I accidentally said `070306`. Whisper transcribed the six-digit number that I actually spoke. This showed that accurate transcription does not guarantee valid input: the system still needs to check that a ZIP code contains five digits. A better version should respond, “I heard 070306. That is six digits. Please repeat your five-digit ZIP code.”
+I created [`ask_zipcode.sh`](speech-scripts/ask_zipcode.sh), which verbally asks:
 
-\*\***Write your own script that verbally asks for a numerical input (a phone number, zipcode, number of pets) and records the answer the respondent provides.**\*\* Numbers are a good stress test — transcription systems make characteristic errors on digit strings, and you will want to know what they are before you design around them.
+> Please say your five-digit ZIP code after I finish speaking.
+
+The script then records five seconds of audio and saves the response as [`zipcode_answer.wav`](speech-scripts/zipcode_answer.wav).
+
+I intended to say the ZIP code `07306`, but I accidentally said `070306`. Whisper transcribed the six-digit number that I actually spoke. This was not a transcription error, but it revealed another problem: an accurate transcription can still contain invalid user input.
+
+A more complete system should check the number of digits before accepting the answer. In this case, it could respond:
+
+> I heard 070306. That is six digits. Please repeat your five-digit ZIP code.
 
 ## C. Turn-taking: knowing when someone has stopped talking
 
