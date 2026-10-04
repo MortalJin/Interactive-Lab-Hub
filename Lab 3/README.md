@@ -19,6 +19,22 @@ The words were the same, but the greeting did not feel the same. One voice was l
 ## B. Speech to Text
 
 \*\***Record a few seconds of your own speech (`arecord -d 5 -f cd -c 1 -r 16000 test.wav`) and transcribe it with at least two model sizes. Report the real-time factor for each. At what point does the accuracy improvement stop being worth the delay, for a system that has to answer you?**\*\*
+### B. Speech to Text
+
+I recorded the same seven-second sentence and transcribed it using two Whisper model sizes.
+
+| Model | Transcription | Transcription Time | Real-Time Factor |
+|---|---|---:|---:|
+| `tiny.en` | “Hi, my name is Yang Chen and I'm a student and co-ner attack.” | 1.18 s | 0.17x |
+| `base.en` | “Hi, my name is Yang Chen and I'm a student in Cornell Tech.” | 2.29 s | 0.33x |
+
+The `base.en` model took about twice as long, but it correctly recognized “Cornell Tech,” while `tiny.en` did not. Since `base.en` was still much faster than real time, the improvement was worth the additional delay. For a responsive conversational system, `base.en` is where I would stop increasing the model size because a larger model would likely add more waiting for a smaller accuracy improvement.
+
+### Numerical Input Test
+
+I created [`ask_zipcode.sh`](speech-scripts/ask_zipcode.sh). The script asks, “Please say your five-digit ZIP code after I finish speaking,” and records five seconds of audio before transcribing the answer.
+
+I intended to say `07306`, but I accidentally said `070306`. Whisper transcribed the six-digit number that I actually spoke. This showed that accurate transcription does not guarantee valid input: the system still needs to check that a ZIP code contains five digits. A better version should respond, “I heard 070306. That is six digits. Please repeat your five-digit ZIP code.”
 
 \*\***Write your own script that verbally asks for a numerical input (a phone number, zipcode, number of pets) and records the answer the respondent provides.**\*\* Numbers are a good stress test — transcription systems make characteristic errors on digit strings, and you will want to know what they are before you design around them.
 
