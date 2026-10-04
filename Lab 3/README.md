@@ -29,6 +29,7 @@ I recorded the seven-second audio file [`my_speech.wav`](speech-scripts/my_speec
 
 The `base.en` model took 1.11 seconds longer and had about twice the real-time factor of `tiny.en`. However, its transcription of “Cornell Tech” as “Corner Tech” was much closer and easier to understand than “co-ner attack.” Both models were still faster than real time, so the accuracy improvement was worth the additional delay. Based on this test, I would stop at `base.en` for a conversational system because a larger model could introduce more waiting for a smaller improvement in accuracy.
 
+
 \*\***Write your own script that verbally asks for a numerical input (a phone number, zipcode, number of pets) and records the answer the respondent provides.**\*\*
 
 #### Numerical Input Test
