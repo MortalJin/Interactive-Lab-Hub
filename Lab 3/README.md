@@ -238,6 +238,8 @@ The system should:
 *Include videos or screencaptures of both the system and the controller.*
 
 <img width="428" height="571" alt="2ad1e873b98163f0e95bd4a57de1b5d6" src="https://github.com/user-attachments/assets/76283920-9d14-46b1-926e-9add34d5af3a" />
+<img width="1360" height="823" alt="image" src="https://github.com/user-attachments/assets/10a50f00-bbe3-4afe-a7a5-9db417ba0350" />
+
 
 https://github.com/user-attachments/assets/fc84f5fc-941d-4a87-9c7b-7ee3f052f203
 
