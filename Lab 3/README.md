@@ -136,6 +136,76 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 3. Make a new storyboard, diagram and/or script based on these reflections.
 4. (optional) Integrate [input devices](inputs.md) in the system
 
+### Redraft Interaction Dialogue
+
+**Screen:** `A DECISION YOU KEEP AVOIDING?`
+
+**SATOR SQUARE:** Think of one decision you keep avoiding. Choose when you want this message to return: tomorrow, one month, or one year.
+
+*The user rotates the dial to select `ONE MONTH` and presses it to confirm.*
+
+**SATOR SQUARE:** One month selected. Hold the dial and tell me what you are deciding—and what makes the decision difficult. Release the dial when you are finished.
+
+**Screen:** `LISTENING...`  
+*The LED remains steadily illuminated while the dial is held.*
+
+**User:** I am thinking about [decision], but I am worried about [concern].
+
+*The user releases the dial.*
+
+**Screen:** `QUESTION RECEIVED`  
+*The LED slowly pulses while the Wizard reads the transcript and selects a relevant question. The device waits approximately 1–2 seconds.*
+
+**Screen:** `FUTURE SELF CONNECTED`
+
+**Future Self:** You said you are considering [decision], but you are worried about [concern]. Are you avoiding it because it is wrong for you, or because it might fail?
+
+**SATOR SQUARE:** Hold the dial to answer. Release it when you are finished.
+
+**Screen:** `LISTENING...`
+
+**User:** I think I am avoiding it because [answer].
+
+*The user releases the dial.*
+
+**Screen:** `MESSAGE SEALED`
+
+**SATOR SQUARE:** Your answer has been sealed. It will return in one month. Connection closed.
+
+---
+
+### One Month Later
+
+*The `TENET` row begins flashing.*
+
+**Screen:** `MESSAGE RETURNED`
+
+**SATOR SQUARE:** A message has returned. One month ago, you said:
+
+*The device plays the user's original recording. It waits one second after the recording ends.*
+
+**SATOR SQUARE:** That was you one month ago. What has changed?
+
+**SATOR SQUARE:** Hold the dial to answer. Release it when you are finished.
+
+**Screen:** `LISTENING...`
+
+**User:** Since then, [new reflection].
+
+*The user releases the dial.*
+
+**Screen:** `MESSAGE SEALED`
+
+**SATOR SQUARE:** Your new reflection has been sealed. Connection closed.
+
+---
+
+### Recovery Dialogue
+
+*If the speech is missing or unclear:*
+
+**SATOR SQUARE:** I may have missed that. Hold the dial and try again.
+
 ## Prototype your system
 
 The system should:
