@@ -130,12 +130,30 @@ When I acted out the interaction, the opening instructions felt clear and natura
 For Part 2, you will redesign the interaction with the speech-enabled device using the data collected, as well as feedback from part 1.
 
 ## Prep for Part 2
+## Design Changes for Part 2
 
-1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings.
-2. What are other modes of interaction *beyond speech* that you might also use to clarify how to interact? In particular: how does someone know when the device is listening, and when it is thinking? You have a screen and an LED.
-3. Make a new storyboard, diagram and/or script based on these reflections.
-4. (optional) Integrate [input devices](inputs.md) in the system
+Feedback from Part 1 showed that the original future-self question was
+too broad, and participants were sometimes unsure how to respond. The
+revised system uses the speech transcript to select a question from a
+small set of reflection cards. This keeps the questions open-ended while
+making them more relevant to what the participant said.
 
+The interaction was also changed from silence-based endpointing to
+push-to-talk. The participant holds the green button while speaking and
+releases it to finish, removing uncertainty about when the device stops
+listening.
+
+The screen and illuminated button communicate the system state. A dim
+green light means the device is ready, a bright green light means it is
+recording, and the light turns off while the system is processing. The
+screen displays states including LISTENING, QUESTION RECEIVED, FUTURE
+SELF CONNECTED, and MESSAGE SEALED.
+
+The rotary encoder is used to select tomorrow, one month, or one year.
+Pressing the encoder confirms the return point, and the illuminated
+button controls both spoken responses.
+
+---
 ### Redraft Interaction Dialogue
 
 **Screen:** `A DECISION YOU KEEP AVOIDING?`
