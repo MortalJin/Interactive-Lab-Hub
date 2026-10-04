@@ -154,6 +154,8 @@ Pressing the encoder confirms the return point, and the illuminated
 button controls both spoken responses.
 
 ---
+### New Storyboard
+---
 ### Redraft Interaction Dialogue
 
 **Screen:** `A DECISION YOU KEEP AVOIDING?`
