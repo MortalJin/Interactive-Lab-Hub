@@ -10,7 +10,7 @@
 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 
-I created [`greet_yangchen.sh`](speech-scripts/greet_yangchen.sh) to have the Pi greet me using different TTS voices.
+I created [`greet_yangchen.sh`](speech-scripts/greet_yangchen.sh) to have the Pi greet me using Piper voice.
 
 \*\***Then answer: Is the same greeting, in these different voices, the same greeting? Describe one concrete way the voice changed what the utterance seemed to mean or who seemed to be speaking.**\*\*
 
