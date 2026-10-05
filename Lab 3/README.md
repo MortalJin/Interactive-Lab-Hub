@@ -130,7 +130,7 @@ When I acted out the interaction, the opening instructions felt clear and natura
 For Part 2, you will redesign the interaction with the speech-enabled device using the data collected, as well as feedback from part 1.
 
 ## Prep for Part 2
-## Design Changes for Part 2
+### Design Changes for Part 2
 
 Feedback from Part 1 showed that the original future-self question was
 too broad, and participants were sometimes unsure how to respond. The
@@ -154,8 +154,6 @@ Pressing the encoder confirms the return point, and the illuminated
 button controls both spoken responses.
 
 ---
-### New Storyboard
----
 ### Redraft Interaction Dialogue
 
 **Screen:** `A DECISION YOU KEEP AVOIDING?`
@@ -164,7 +162,7 @@ button controls both spoken responses.
 
 *The user rotates the dial to select `ONE MONTH` and presses it to confirm.*
 
-**SATOR SQUARE:** One month selected. Hold the dial and tell me what you are deciding—and what makes the decision difficult. Release the dial when you are finished.
+**SATOR SQUARE:** One month selected. Hold the green button and tell me what you are deciding—and what makes the decision difficult. Release the green button when you are finished.
 
 **Screen:** `LISTENING...`  
 *The LED remains steadily illuminated while the dial is held.*
@@ -180,7 +178,7 @@ button controls both spoken responses.
 
 **Future Self:** You said you are considering [decision], but you are worried about [concern]. Are you avoiding it because it is wrong for you, or because it might fail?
 
-**SATOR SQUARE:** Hold the dial to answer. Release it when you are finished.
+**SATOR SQUARE:** Hold the green button to answer. Release it when you are finished.
 
 **Screen:** `LISTENING...`
 
@@ -206,7 +204,7 @@ button controls both spoken responses.
 
 **SATOR SQUARE:** That was you one month ago. What has changed?
 
-**SATOR SQUARE:** Hold the dial to answer. Release it when you are finished.
+**SATOR SQUARE:** Hold the green button to answer. Release it when you are finished.
 
 **Screen:** `LISTENING...`
 
@@ -224,18 +222,9 @@ button controls both spoken responses.
 
 *If the speech is missing or unclear:*
 
-**SATOR SQUARE:** I may have missed that. Hold the dial and try again.
+**SATOR SQUARE:** I may have missed that. Hold the green button and try again.
 
 ## Prototype your system
-
-The system should:
-* use the Raspberry Pi
-* use one or more sensors
-* require participants to speak to it
-
-*Document how the system works.*
-
-*Include videos or screencaptures of both the system and the controller.*
 
 <img width="428" height="571" alt="2ad1e873b98163f0e95bd4a57de1b5d6" src="https://github.com/user-attachments/assets/76283920-9d14-46b1-926e-9add34d5af3a" />
 
@@ -283,9 +272,9 @@ step automatically.
 
 ## Test the system
 
-Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard *after* the interaction, but we recognize that can be hard.)
+**Participant 1: Zining Yu**
 
-Answer the following:
+**Participant 2: Junzhe Sun**
 
 ### What worked well about the system and what didn't?
 The overall interaction flow worked well. The rotary encoder made the return-point selection physical, and holding the green button to speak was clearer than asking users to pause for a fixed amount of time. The screen and illuminated button also helped communicate when the system was ready, listening, processing, and finished. However, the screen was too small for some instructions, and the exposed components made the device look unfinished. The rotary shaft looked more like a screw than an intentional control. The tester suggested that the final device could resemble a compact MP4 player or iPod, integrating the screen, dial, button, microphone, and speaker into one portable enclosure. This familiar and personal form would fit an interaction based on private voice messages and memories. The current system also only supports English, which limits who can use it.
