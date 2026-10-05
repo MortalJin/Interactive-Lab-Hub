@@ -46,9 +46,7 @@ A more complete system should check the number of digits before accepting the an
 
 > I heard 070306. That is six digits. Please repeat your five-digit ZIP code.
 
-## C. Turn-taking: knowing when someone has stopped talking
-
-\*\***Try both extremes, and something in between. Describe what each one feels like to talk to. Note specifically: at 0.2s, what kinds of normal speech get cut off? At 1.5s, what does the delay make the system seem like?**\*\*
+## C. Turn-taking: knowing when someone has stopped talkin
 
 #### Endpointing Test
 
@@ -61,8 +59,6 @@ A more complete system should check the number of digits before accepting the an
 I selected `0.8 seconds` as the best compromise. It gives users enough room for ordinary pauses and brief moments of thought without making the system feel unresponsive.
 
 ## D. Storyboard
-
-\*\***Post your storyboard and diagram here.**\*\*
 
 ## SATOR SQUARE Storyboard
 
