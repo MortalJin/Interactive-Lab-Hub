@@ -238,12 +238,41 @@ The system should:
 *Include videos or screencaptures of both the system and the controller.*
 
 <img width="428" height="571" alt="2ad1e873b98163f0e95bd4a57de1b5d6" src="https://github.com/user-attachments/assets/76283920-9d14-46b1-926e-9add34d5af3a" />
+**System:** Physical interaction with the screen, rotary encoder, illuminated button, microphone, and speaker.
+
 <img width="1360" height="823" alt="image" src="https://github.com/user-attachments/assets/10a50f00-bbe3-4afe-a7a5-9db417ba0350" />
+**Controller:** Terminal view showing transcription and question-card selection.
+
 
 
 [Test Video](https://github.com/user-attachments/assets/e79375cc-f55c-4ff1-a955-85bd6f6f5a71)
 
+## Prototype
 
+SATOR SQUARE runs on a Raspberry Pi 5. A rotary encoder allows the
+participant to select tomorrow, one month, or one year as the return
+point. Pressing the encoder confirms the selection. The participant
+then holds an illuminated green button while speaking and releases it
+to finish recording.
+
+A Mini PiTFT communicates the current state of the interaction,
+including LISTENING, QUESTION RECEIVED, FUTURE SELF CONNECTED, and
+MESSAGE SEALED. The green button remains dim when the system is ready,
+becomes fully illuminated while recording, turns off while processing,
+and flashes twice when the message has been sealed.
+
+The Raspberry Pi records the participant through a USB microphone and
+uses a local Whisper model to transcribe the recording. A keyword-guided
+controller selects a reflection question from a set of question cards,
+and Piper reads the question aloud through the speaker. The original
+recordings, transcripts, selected questions, return point, and timestamps
+are saved together as one session.
+
+The controller view runs in the terminal and displays the selected
+return point, user transcript, drawn question card, and the question
+sent to the device. An earlier Wizard of Oz version allowed the wizard
+to approve or replace the question; the revised prototype performs this
+step automatically.
 
 
 
