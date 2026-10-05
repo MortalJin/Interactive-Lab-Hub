@@ -286,16 +286,16 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+The overall interaction flow worked well. The rotary encoder made the return-point selection physical, and holding the green button to speak was clearer than asking users to pause for a fixed duration. The screen and illuminated button also helped communicate when the system was ready, listening, processing, and finished. However, the screen was too small for some instructions, and the exposed components made the device look unfinished. The rotary shaft looked more like a screw than an intentional control, so a knob cap and enclosure would improve its appearance and affordance. The current system also only supports English, which limits who can use it.
 
 ### What worked well about the controller and what didn't?
-\*\**your answer here*\*\*
+The controller successfully displayed the transcript, selected a reflection question, and recorded what was sent to the device. The automatic version allowed the interaction to continue without requiring me to type during the session. However, keyword matching and random selection from a small pool of questions did not always yield a relevant response. For example, when the topic was financial freedom, the system asked, “What are you protecting yourself from?” This made the controller feel as if it were randomly drawing from ten questions rather than understanding the participant. The earlier Wizard-of-Oz controller allowed me to replace an irrelevant question, but manually monitoring and typing could also create an awkward delay.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-\*\**your answer here*\*\*
+The main lesson is that semantic relevance matters as much as timing. Even if the interaction runs smoothly, an unrelated question immediately makes the device feel less intelligent. A more autonomous version could use a constrained generative AI model to generate or rank one question based on the complete transcript. The model should only produce a short reflective question and should not predict the future, give direct advice, or reveal an outcome. The existing question cards could remain as a fallback when the model is unavailable or uncertain. A future version could also use multilingual speech recognition and matching text-to-speech voices while preserving the screen, LED, and push-to-talk feedback that helped users understand the interaction.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-\*\**your answer here*\*\*
+Each session could become one structured data record containing the selected return point, original audio, transcript, question selected by the controller, spoken reflection, timestamps, and the participant’s later response when the message returns. I could also collect a short relevance rating for the selected question and record whether the wizard had to replace it. This dataset could help identify which questions work best for different concerns and could later be used to train or evaluate a more autonomous question-selection system. Additional useful signals include rotary and button-event timestamps, speech duration, pauses, response latency, and proximity to the device. With informed consent, video could also capture hesitation, gaze, and facial reactions, although voice and video data would need careful privacy protection and anonymization.
 
 <details>
   <summary><strong>Submission Cleanup Reminder (Click to Expand)</strong></summary>
