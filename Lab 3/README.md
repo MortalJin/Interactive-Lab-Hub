@@ -70,11 +70,6 @@ I selected `0.8 seconds` as the best compromise. It gives users enough room for 
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f974ae2e-d20f-41c4-87da-39649dc14f90" />
 
-
-
-
-\*\***Please describe and document your process.**\*\*
-
 **SATOR SQUARE:** Select a return point: tomorrow, one month, or one year.
 
 **User:** One month.
