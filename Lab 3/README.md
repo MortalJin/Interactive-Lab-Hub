@@ -238,9 +238,11 @@ The system should:
 *Include videos or screencaptures of both the system and the controller.*
 
 <img width="428" height="571" alt="2ad1e873b98163f0e95bd4a57de1b5d6" src="https://github.com/user-attachments/assets/76283920-9d14-46b1-926e-9add34d5af3a" />
+
 **System:** Physical interaction with the screen, rotary encoder, illuminated button, microphone, and speaker.
 
 <img width="1360" height="823" alt="image" src="https://github.com/user-attachments/assets/10a50f00-bbe3-4afe-a7a5-9db417ba0350" />
+
 **Controller:** Terminal view showing transcription and question-card selection.
 
 
