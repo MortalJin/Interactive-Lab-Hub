@@ -165,18 +165,18 @@ button controls both spoken responses.
 **SATOR SQUARE:** One month selected. Hold the green button and tell me what you are deciding—and what makes the decision difficult. Release the green button when you are finished.
 
 **Screen:** `LISTENING...`  
-*The LED remains steadily illuminated while the dial is held.*
+*The green button remains fully illuminated while it is held.*
 
 **User:** I am thinking about [decision], but I am worried about [concern].
 
-*The user releases the dial.*
+*The user releases the green button.*
 
 **Screen:** `QUESTION RECEIVED`  
-*The LED slowly pulses while the Wizard reads the transcript and selects a relevant question. The device waits approximately 1–2 seconds.*
+*The green LED turns off while the automatic controller transcribes the recording and selects a relevant question.*
 
 **Screen:** `FUTURE SELF CONNECTED`
 
-**Future Self:** You said you are considering [decision], but you are worried about [concern]. Are you avoiding it because it is wrong for you, or because it might fail?
+**Future Self:** I cannot tell you what happened. [Selected reflection question]
 
 **SATOR SQUARE:** Hold the green button to answer. Release it when you are finished.
 
@@ -184,7 +184,7 @@ button controls both spoken responses.
 
 **User:** I think I am avoiding it because [answer].
 
-*The user releases the dial.*
+*The user releases the green button.*
 
 **Screen:** `MESSAGE SEALED`
 
@@ -210,7 +210,7 @@ button controls both spoken responses.
 
 **User:** Since then, [new reflection].
 
-*The user releases the dial.*
+*The user releases the green button.*
 
 **Screen:** `MESSAGE SEALED`
 
@@ -224,7 +224,7 @@ button controls both spoken responses.
 
 **SATOR SQUARE:** I may have missed that. Hold the green button and try again.
 
-## Prototype your system
+## Prototype
 
 <img width="428" height="571" alt="2ad1e873b98163f0e95bd4a57de1b5d6" src="https://github.com/user-attachments/assets/76283920-9d14-46b1-926e-9add34d5af3a" />
 
@@ -237,8 +237,6 @@ button controls both spoken responses.
 [Test Video](https://github.com/user-attachments/assets/e79375cc-f55c-4ff1-a955-85bd6f6f5a71)
 
 YouTube Video: [Full Interaction Process](https://youtube.com/shorts/aM9rMaL1U2Q)
-
-## Prototype
 
 - [SATOR SQUARE Part 2 prototype](speech-scripts/sator_prototype_v2.py)
 - [Automatic question controller](speech-scripts/wizard_controller.py)
