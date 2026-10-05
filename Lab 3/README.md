@@ -246,6 +246,7 @@ The system should:
 **Controller:** Terminal view showing transcription and question-card selection.
 
 [Test Video](https://github.com/user-attachments/assets/e79375cc-f55c-4ff1-a955-85bd6f6f5a71)
+
 [Full Interaction Process](https://youtube.com/shorts/aM9rMaL1U2Q)
 
 ## Prototype
