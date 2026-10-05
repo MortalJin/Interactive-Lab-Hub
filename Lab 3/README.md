@@ -14,7 +14,7 @@ I created [`greet_yangchen.sh`](speech-scripts/greet_yangchen.sh) to have the Pi
 
 \*\***Then answer: Is the same greeting, in these different voices, the same greeting? Describe one concrete way the voice changed what the utterance seemed to mean or who seemed to be speaking.**\*\*
 
-The words were the same, but the greeting did not feel the same. One voice was less clear and sounded slightly tired or reluctant, which made the greeting feel almost forced. The clearer voice sounded more confident and consistent, so it felt like a fully formed machine speaking to me rather than an uncertain person.
+The words were the same, but the greeting did not feel the same. The eSpeak NG `en+f2` voice was less clear and sounded slightly tired or reluctant, which made the greeting feel almost forced. The Piper `en_US-lessac-medium` voice was clearer and more consistent, so it felt like a fully formed machine speaking to me rather than an uncertain person.
 
 ## B. Speech to Text
 
