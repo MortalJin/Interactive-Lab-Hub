@@ -240,6 +240,9 @@ YouTube Video: [Full Interaction Process](https://youtube.com/shorts/aM9rMaL1U2Q
 
 ## Prototype
 
+- [SATOR SQUARE Part 2 prototype](speech-scripts/sator_prototype_v2.py)
+- [Automatic question controller](speech-scripts/wizard_controller.py)
+
 SATOR SQUARE runs on a Raspberry Pi 5. A rotary encoder allows the
 participant to select tomorrow, one month, or one year as the return
 point. Pressing the encoder confirms the selection. The participant
