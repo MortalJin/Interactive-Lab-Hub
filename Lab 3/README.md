@@ -118,9 +118,6 @@ When I acted out the interaction, the opening instructions felt clear and natura
 
 # Lab 3 Part 2
 
-For Part 2, you will redesign the interaction with the speech-enabled device using the data collected, as well as feedback from part 1.
-
-## Prep for Part 2
 ### Design Changes for Part 2
 
 Feedback from Part 1 showed that the original future-self question was
