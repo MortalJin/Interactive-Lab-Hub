@@ -284,9 +284,33 @@ Your kit includes these [SparkFun Qwiic OLED screens](https://www.sparkfun.com/p
 
 As you develop your Feast Automata concept, consider where the sensor and actuator need to be placed, what parts move, how electronics are housed, and how the overall form and aesthetics support the interaction.
 
+My design is an interesting dining device that encourages people to put down their phones and focus on having meals together.
+
+Before the banquet began, the participants placed their mobile phones in the numbered slots. It won't be opened until everyone has put their mobile phones in the snack box, and then everyone can start sharing food.
+
+When all the food was eaten up, a small flag was flown at half-mast, marking the end of the feast. This gave the dinner party a dramatic and humorous closing ceremony.
+
 **\*\*\*Draw 5 sketches that explore different physical arrangements for your sensing and actuation.\*\*\***
 
+<img width="887" height="541" alt="Screenshot 2026-10-14 at 12 01 46 AM" src="https://github.com/user-attachments/assets/5d70e126-8539-4bb8-8c15-82e0f157cd54" />
+
+
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
+
+Where should the Qwiic distance sensor be placed so that it reliably detects the fourth phone?
+
+How close does the phone need to be to the sensor?
+
+Will different phone sizes, cases, and materials affect the sensor readings?
+
+How should the snack tray pivot when the weight of the food changes?
+
+How much weight is needed to keep the tray in its “food present” position?
+
+Will removing food by hand temporarily move the tray and cause a false “empty” reading?
+
+How should the second servo connect to the flag so that it stops at half-mast?
+
 
 **\*\*\*Pick one design to prototype and explain why.\*\*\***
 
