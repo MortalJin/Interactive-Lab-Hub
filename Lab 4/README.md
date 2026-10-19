@@ -525,21 +525,72 @@ This is a playful way to visualize how the expander works, but the same techniqu
 
 ### Final Documentation
 
-Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+### Project: Phone Jail Dinner
 
----
+Phone Jail Dinner is a playful dining device that encourages people to put away their phones before taking a snack. To access the food, the user must place their phone in the phone tray. When the phone is detected, the container automatically opens. If the phone is removed, the container closes again.
 
-## Deliverables \& Submission for Lab 4
+A simple interaction diagram or sketch showing how sensing and actuation are connected:
+The proximity sensor detects whether a phone is in the tray. The Raspberry Pi checks the sensor value and commands the servo to physically open or close the snack container.
+<img width="753" height="302" alt="Screenshot 2026-10-19 at 5 34 05 PM" src="https://github.com/user-attachments/assets/62892de8-aaf2-44ff-818a-8a8d62e18c11" />
+<img width="710" height="420" alt="Screenshot 2026-10-19 at 5 34 27 PM" src="https://github.com/user-attachments/assets/c2ffe5b9-6093-48ec-bd07-e092e2c9eb3e" />
 
-The deliverables for this lab are, writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do.
-* "Acts like": shows how a person would interact with the device.
+### Looks Like
 
-For submission, the readme.md page for this lab should be edited to include the work you have done:
-* Upload any materials that explain what you did, into your lab 4 repository, and link them in your lab 4 readme.md.
-* Link your Lab 4 readme.md in your main Interactive-Lab-Hub readme.md. 
-* Labs are due on Mondays, make sure to submit your Lab 4 readme.md to Canvas.
+The prototype consists of a transparent plastic snack container, a shallow cardboard phone tray, a Raspberry Pi, a Servo pHAT, a proximity sensor, and a micro servo.
+
+The phone lies flat inside the tray directly over the sensor. The servo is attached near the lid of the snack container so that its rotation can lift and lower the lid. The transparent container makes the food and the moving mechanism visible. The electronics remain exposed in this prototype so that the wiring and component positions can be easily adjusted.
+
+### Works Like
+
+The proximity sensor continuously measures whether an object is covering it. During testing, the sensor reading was approximately 5–7 when the tray was empty and approximately 4,230 when a phone was placed on it.
+
+The program uses two thresholds:
+
+- Above 1,000: the phone is present.
+- Below 500: the phone has been removed.
+
+When the reading rises above the detection threshold, the Raspberry Pi sends a command to the servo. The servo rotates from 0 degrees to 120 degrees and opens the container lid. When the phone is removed, the reading drops below the lower threshold and the servo returns to 0 degrees, closing the lid.
+
+Using separate opening and closing thresholds prevents small changes in the sensor reading from making the lid rapidly move back and forth.
+
+### Acts Like
+
+The device acts like a small phone-controlled snack guard. It creates a simple exchange: the user gives up access to their phone and receives access to the food.
+
+The interaction changes an ordinary action—taking a snack—into a playful physical ritual. The container remains open while the phone stays in the tray. Removing the phone causes the lid to close, reinforcing the idea that the user must stay away from the phone while eating.
+
+### Interaction Diagram
+
+<img width="387" height="445" alt="Screenshot 2026-10-19 at 5 50 18 PM" src="https://github.com/user-attachments/assets/444edd43-cae2-43a4-96f7-d80204966ed0" />
+
+### Prototype Iteration
+
+The first tests were completed with the proximity sensor and servo separately. After confirming that both components worked, they were combined in one program.
+
+Placing the phone directly over the sensor produced a much clearer reading than detecting it from farther away. Increasing the servo movement to a 0–120 degree range also made the opening action easier to see and gave the user enough room to reach inside the container.
+
+The video demonstrates the complete interaction:
+https://youtu.be/foITJJiWwKs
+
+1. The container begins closed.
+2. The phone is placed flat in the sensor tray.
+3. The sensor detects the phone and the lid opens.
+4. The user takes a snack.
+5. The phone is removed and the lid closes.
+6. Placing the phone back in the tray opens the lid again.
+
+
+### Code
+
+The sensing and actuation are integrated in phone.py. The program reads the proximity value, determines whether the phone is present, and moves the servo between its open and closed positions.
+
+### Reflection
+
+This prototype showed me how sensing, movement, and physical form affect one another. The sensor only worked reliably when the phone was positioned directly over it, so the size and location of the phone tray became an important part of the interaction.
+
+The most challenging part was positioning the servo so that its rotation could reliably move the lid. The lid needed to be light enough for the small servo, while the servo and linkage needed to remain secure during repeated movement.
+
+I was surprised by how much clearer the interaction became after increasing the servo’s movement range. The large opening motion makes the system’s response immediately visible. The two sensor thresholds also made the interaction more stable by preventing accidental repeated movements.
+
+The most enjoyable part was turning a simple rule—put down your phone before eating—into a physical and playful exchange. A future version could hide the electronics inside a cleaner enclosure, improve the lid linkage, and include spaces for multiple phones so that everyone at the table must participate.
+
