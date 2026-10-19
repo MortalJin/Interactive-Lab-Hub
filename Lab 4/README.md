@@ -292,8 +292,6 @@ When all the food was eaten up, a small flag was flown at half-mast, marking the
 
 **\*\*\*Draw 5 sketches that explore different physical arrangements for your sensing and actuation.\*\*\***
 
-<img width="887" height="541" alt="Screenshot 2026-10-14 at 12 01 46 AM" src="https://github.com/user-attachments/assets/5d70e126-8539-4bb8-8c15-82e0f157cd54" />
-
 
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
 
