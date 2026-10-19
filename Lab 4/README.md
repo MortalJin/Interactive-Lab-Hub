@@ -288,33 +288,50 @@ My design is an interesting dining device that encourages people to put down the
 
 Before the banquet began, the participants placed their mobile phones in the numbered slots. It won't be opened until everyone has put their mobile phones in the snack box, and then everyone can start sharing food.
 
-When all the food was eaten up, a small flag was flown at half-mast, marking the end of the feast. This gave the dinner party a dramatic and humorous closing ceremony.
-
 **\*\*\*Draw 5 sketches that explore different physical arrangements for your sensing and actuation.\*\*\***
+<img width="1026" height="557" alt="Screenshot 2026-10-19 at 3 39 58 AM" src="https://github.com/user-attachments/assets/0c4d16b8-2d98-4c3d-bf52-28f3f4fc42ce" />
 
 
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
 
-Where should the Qwiic distance sensor be placed so that it reliably detects the fourth phone?
+Should the phone be placed vertically or horizontally?
 
-How close does the phone need to be to the sensor?
+Where should the distance sensor be positioned to detect the phone reliably?
 
-Will different phone sizes, cases, and materials affect the sensor readings?
+How much space should there be between the phone and the sensor?
 
-How should the snack tray pivot when the weight of the food changes?
+Will phones with different sizes or cases produce different sensor readings?
 
-How much weight is needed to keep the tray in its “food present” position?
+How large should the phone tray be so that the phone does not slide or cover the sensor?
 
-Will removing food by hand temporarily move the tray and cause a false “empty” reading?
+Where should the servo be mounted so that it can open the lid without twisting the box?
 
-How should the second servo connect to the flag so that it stops at half-mast?
+Is the cardboard lid light enough for the servo to lift?
+
+Should the servo connect directly to the lid or use a linkage or string?
+
+How far should the lid open?
+
 
 
 **\*\*\*Pick one design to prototype and explain why.\*\*\***
 
-Build a cardboard or other low-fidelity physical prototype of your design.
+I selected Sketch 1: Open Layout with a Horizontal Phone Tray.
+
+In this design, the phone lies flat in a shallow cardboard tray. The distance sensor is placed near one end of the tray and faces the edge of the phone. The Raspberry Pi and Servo pHAT remain exposed between the phone tray and snack box. A micro servo is mounted directly next to the snack-box lid.
+
+I selected this design because placing the phone horizontally is more stable than placing it vertically. The open layout also keeps the electronic components visible and accessible, making it easier to adjust the sensor, reconnect cables, and test different servo positions. The direct connection between the servo and lid is simpler and more reliable than using a string or complicated linkage.
+
+The intended interaction is:
+
+place the phone in the tray → detect the phone → open the snack box
 
 **\*\*\*Document your rough prototype with photos and/or video.\*\*\***
+<img width="2192" height="1646" alt="IMG_5092" src="https://github.com/user-attachments/assets/0358794e-cb01-4368-b3a1-a44194f149dd" />
+https://youtu.be/wCwfw3chxlE
+
+I simply simulated the process. When the box detects that a mobile phone has been placed inside, the lid of the box containing snacks will open. Once the phone is detected to be absent, the cover will close.
+
 
 ---
 
