@@ -2,9 +2,10 @@
 
 **Team:**
 
-**Members:** Full Name (netid, github-handle), ...
+**Members:** Yan Shen (ys2473, ys2473), Yangchen Jin (yj645, MortalJin)
 
-**Project name:**
+**Project name:** Camera Fantasic Night
+Our group turn-in is here: https://github.com/ys2473/Interactive-Lab-Hub/tree/Fall2026/Lab%205
 
 <details>
 	<summary><strong>Instructions for Students (Click to Expand)</strong></summary>
