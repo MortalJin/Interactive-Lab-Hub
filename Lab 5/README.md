@@ -2,9 +2,9 @@
 
 **Team:**
 
-**Members:** Full Name (netid, github-handle), ...
+**Members:** Yan Shen (ys2473, ys2473), Yangchen Jin (yj645, MortalJin)
 
-**Project name:**
+**Project name: Camera Fantasic Night**
 
 <details>
 	<summary><strong>Instructions for Students (Click to Expand)</strong></summary>
@@ -134,7 +134,8 @@ pi@raspberrypi:~ $ ollama list
 | `qwen3.5:0.8b` | ~1.3 GB | text **and images**; the one we use in this lab |
 | `qwen3:0.6b` | ~0.5 GB | text only, smaller and faster (~16 tokens/s on a Pi 5) |
 
-\*\*\***Include a screenshot of `ollama list` showing your models.**\*\*\*
+<img width="1088" height="144" alt="image" src="https://github.com/user-attachments/assets/3c1d195c-74d3-4496-8546-2bfc150c67b7" />
+
 
 
 ## Part B. 
@@ -159,7 +160,15 @@ Then press q to quit and run it again with a flag. Each one changes a single thi
 (.venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 5 $ python yolo_person.py --headless     # no window, only the printed readings: how it runs over ssh, and at night
 ```
 
-\*\*\***Include a short video or screenshots of your experiments with the person detection. Write down three situations where it did not see you, or saw a person who was not there, and what you think the cause was.**\*\*\*
+<img width="1112" height="698" alt="Screenshot 2026-10-26 at 4 54 21 PM" src="https://github.com/user-attachments/assets/4d7e2c51-32d8-47a7-bf9b-bee5be355974" />
+
+<img width="1081" height="695" alt="Screenshot 2026-10-26 at 4 55 04 PM" src="https://github.com/user-attachments/assets/3bb104bc-08c4-4425-b0c3-bffed9a68528" />
+
+<img width="1103" height="688" alt="Screenshot 2026-10-26 at 4 55 28 PM" src="https://github.com/user-attachments/assets/f2cbfe42-f79f-4548-b825-34ad76fc5c24" />
+
+<img width="1089" height="675" alt="Screenshot 2026-10-26 at 4 55 42 PM" src="https://github.com/user-attachments/assets/24200ebf-73c5-4c59-9f3f-00b16cc03a03" />
+
+
 
 
 
