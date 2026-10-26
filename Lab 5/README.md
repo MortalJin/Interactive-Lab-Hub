@@ -235,6 +235,16 @@ A 0.8B model is slow and sometimes wrong. It will invent events that are not in 
   Q&A here
 </details>
 
+| Question | Model | Answer (short) | Time | Correct? |
+|---|---|---|---|---|
+| Tell me a bit about the history of Roosevelt Island. | qwen3.5:0.8b | Said it was a WWII military barracks, named after Theodore Roosevelt, who walked across it in 1902. | 11.1 s | No. It was Blackwell's Island, then Welfare Island, renamed for FDR in 1973. None of the 3 facts were right. |
+| What is 17 times 23? | qwen3.5:0.8b | 391 | 1.8 s | Yes |
+| What is in this photo? (snap.jpg) | qwen3.5:0.8b | A ceiling of a modern room with a large diamond-shaped light and two long LED strips running diagonally. | 4.7 s | ___ |
+| Tell me a bit about the history of Roosevelt Island. | qwen3:0.6b | Said it was set up in 1904 for the "Roosevelt Corridor Project" in the Hudson River. Kept repeating "Roosevelt Corridor" until it got cut off. | 14.3 s | No. Made up a project that doesn't exist, and it's in the East River, not the Hudson. |
+
+**Comparison:** Both models made up history about Roosevelt Island, but the 0.6b model was worse. It repeated itself and got cut off by the token limit. It was also slower this time (14.3 s vs 11.1 s), because it kept going until it hit the limit. The 0.8b model did fine on the simple math question. So these small models seem OK for short, simple tasks, but you can't trust them on facts.
+
+## Part E. Connect: from YOLO readings to Qwen reasoning
 
 ## Part E. 
 ### Connect: from YOLO readings to Qwen reasoning
