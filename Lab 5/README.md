@@ -1,6 +1,6 @@
 # Observant Systems: Overnight Sensation
 
-**Team:**
+**Team:** Ignorance is bliss
 
 **Members:** Yan Shen (ys2473, ys2473), Yangchen Jin (yj645, MortalJin)
 
