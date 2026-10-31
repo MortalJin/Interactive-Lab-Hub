@@ -4,10 +4,7 @@
 
 **Members:** Yan Shen (ys2473, ys2473), Yangchen Jin (yj645, MortalJin)
 
-**Project name:** Camera Fantasic Night
-
-**Our group turn-in is here:** https://github.com/ys2473/Interactive-Lab-Hub/tree/Fall2026/Lab%205
-
+**Project name: Camera Fantasic Night**
 
 <details>
 	<summary><strong>Instructions for Students (Click to Expand)</strong></summary>
@@ -137,7 +134,8 @@ pi@raspberrypi:~ $ ollama list
 | `qwen3.5:0.8b` | ~1.3 GB | text **and images**; the one we use in this lab |
 | `qwen3:0.6b` | ~0.5 GB | text only, smaller and faster (~16 tokens/s on a Pi 5) |
 
-\*\*\***Include a screenshot of `ollama list` showing your models.**\*\*\*
+<img width="1088" height="144" alt="image" src="https://github.com/user-attachments/assets/3c1d195c-74d3-4496-8546-2bfc150c67b7" />
+
 
 
 ## Part B. 
@@ -161,9 +159,24 @@ Then press q to quit and run it again with a flag. Each one changes a single thi
 (.venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 5 $ python yolo_person.py --all          # all 80 classes, not only people: what else is on your desk, and what does it get wrong?
 (.venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 5 $ python yolo_person.py --headless     # no window, only the printed readings: how it runs over ssh, and at night
 ```
+successfully recognized
+<img width="1112" height="698" alt="Screenshot 2026-10-26 at 4 54 21 PM" src="https://github.com/user-attachments/assets/4d7e2c51-32d8-47a7-bf9b-bee5be355974" />
 
-\*\*\***Include a short video or screenshots of your experiments with the person detection. Write down three situations where it did not see you, or saw a person who was not there, and what you think the cause was.**\*\*\*
+<img width="1081" height="695" alt="Screenshot 2026-10-26 at 4 55 04 PM" src="https://github.com/user-attachments/assets/3bb104bc-08c4-4425-b0c3-bffed9a68528" />
 
+<img width="1103" height="688" alt="Screenshot 2026-10-26 at 4 55 28 PM" src="https://github.com/user-attachments/assets/f2cbfe42-f79f-4548-b825-34ad76fc5c24" />
+
+<img width="1089" height="675" alt="Screenshot 2026-10-26 at 4 55 42 PM" src="https://github.com/user-attachments/assets/24200ebf-73c5-4c59-9f3f-00b16cc03a03" />
+
+unsuccessfully recognized
+<img width="873" height="582" alt="Screenshot 2026-10-26 at 5 18 41 PM" src="https://github.com/user-attachments/assets/7c15fd92-af8d-45cf-b67d-1208b8308925" />
+
+<img width="664" height="511" alt="Screenshot 2026-10-26 at 5 19 37 PM" src="https://github.com/user-attachments/assets/c1b329d8-6b34-4b47-bbc5-0929b3325377" />
+
+<img width="786" height="587" alt="Screenshot 2026-10-26 at 5 19 47 PM" src="https://github.com/user-attachments/assets/1271b048-4780-4d82-8592-152a7a284df3" />
+
+
+We could use hand tracking for the "before bed" part of my idea. Instead of typing a command, I show a goodnight gesture (like an open palm) to the camera, and that tells the Pi to take the desk photo and start the night. It's easier than finding a button in the dark.
 
 
 ## Part C. 
@@ -192,75 +205,31 @@ Consider how you might use this position based approach to create an interaction
 
 \*\*\***Include a screenshot or short video of the hand pose demo, and write how you might use face, hand or body pose tracking in your observant system.**\*\*\*
 
+https://youtu.be/5uTxqnljpyc
+
+We could use hand tracking for the "before bed" part of my idea. Instead of typing a command, we can show a goodnight gesture (like an open palm) to the camera, and that tells the Pi to take the desk photo and start the night. 
+It's easier than finding a button in the dark.
+
+
 
 ## Part D. 
 ### Reason: run Qwen on the Pi with Ollama
 
-Talk to the model in the terminal first. Qwen3 models "think" before they answer, which is slow on a Pi, so turn it off. Then ask about something you can check:
+| Question | Model | Answer (short) | Time | Correct? |
+|---|---|---|---|---|
+| Tell me a bit about the history of Roosevelt Island. | qwen3.5:0.8b | Said it was a WWII military barracks, named after Theodore Roosevelt, who walked across it in 1902. | 11.1 s | No. It was Blackwell's Island, then Welfare Island, renamed for FDR in 1973. None of the 3 facts were right. |
+| What is 17 times 23? | qwen3.5:0.8b | 391 | 1.8 s | Yes |
+| What is in this photo? (snap.jpg) | qwen3.5:0.8b | A ceiling of a modern room with a large diamond-shaped light and two long LED strips running diagonally. | 4.7 s | ___ |
+| Tell me a bit about the history of Roosevelt Island. | qwen3:0.6b | Said it was set up in 1904 for the "Roosevelt Corridor Project" in the Hudson River. Kept repeating "Roosevelt Corridor" until it got cut off. | 14.3 s | No. Made up a project that doesn't exist, and it's in the East River, not the Hudson. |
 
-```
-pi@raspberrypi:~ $ ollama run qwen3.5:0.8b
->>> /set nothink
->>> Tell me a bit about the history of Roosevelt Island. Three sentences.
->>> /bye
-```
-
-Roosevelt Island is a good first question because you know the ground truth: it was Blackwell's Island, then Welfare Island, got its current name in 1973, and Cornell Tech opened on it in 2017. Count how many of the model's facts are true.
-
-From Python, qwen requests can be triggered by the `ask_qwen.py` script. It turns thinking off, tells the model to answer in at most three sentences, and cuts it off after 120 tokens (`--max-tokens` changes that), because a small model left alone writes an essay. Read the script, then run:
-
-```
-(.venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 5 $ python ask_qwen.py "Tell me a bit about the history of Roosevelt Island."
-(.venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 5 $ python ask_qwen.py --model qwen3:0.6b "Tell me a bit about the history of Roosevelt Island."
-(.venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 5 $ python ask_qwen.py --image snap.jpg "What is in this photo?"
-```
-
-Things in the [Ollama API](https://github.com/ollama/ollama/blob/main/docs/api.md) worth knowing:
-
-* `think: false` skips the reasoning trace. Always, on a Pi. `ask_qwen.py` sends it on every request; `--think` turns the trace back on for one question, so you can see what you are skipping and how long it takes.
-* `format` makes the model answer as JSON with the fields you name (`--json`). Handy when a display or a servo has to read the answer.
-* `images` sends a photo along with the prompt (`--image snap.jpg`, the photo from Part A). `qwen3.5:0.8b` can look at pictures.
-
-A 0.8B model is slow and sometimes wrong. It will invent events that are not in the data and agree with a wrong premise. Give it the data, keep its job narrow, and decide what the device does when the model is unsure.
-
-\*\*\***Ask Qwen three questions to answer. Paste the questions, the answers and how long each took. Try one of them with `qwen3:0.6b` and compare.**\*\*\*
-
-<details>
-  Q&A here
-</details>
+**Comparison:** Both models made up history about Roosevelt Island, but the 0.6b model was worse. It repeated itself and got cut off by the token limit. It was also slower this time (14.3 s vs 11.1 s), because it kept going until it hit the limit. The 0.8b model did fine on the simple math question. So these small models seem OK for short, simple tasks, but you can't trust them on facts.
 
 
 ## Part E. 
 ### Connect: from YOLO readings to Qwen reasoning
 
-An observant system is a pipeline: a **detector** turns pixels into boxes, an **interpreter** turns boxes into readings in words ("one person, left, close"), the readings pile up in a **log**, and a **reasoner** answers a question about the log. The language model never sees pixels, only the words you chose in the interpreter. That makes the interpreter the most important design decision in the system.
+<img width="643" height="588" alt="6fdbcb92d2cd76aa3a823ae90ca7e148" src="https://github.com/user-attachments/assets/61e11d7b-46d1-45c7-a8ae-cf6cfb0dd2d7" />
 
-`yolo_to_qwen.py` is the pipeline in one file, one function per stage. Read it before you run it:
-
-* `interpret(r)` is the interpreter. It takes one YOLO result and returns one reading. A person is *left*, *center* or *right* by which third of the frame the middle of their box is in, and *close* if the box is taller than 60% of the frame, *far* otherwise. The reading is a string like `1 person(s) at center/close`, or `nobody`. Fifteen lines, and they decide everything the model can know.
-* `watch(seconds)` is the detector and the log. Twice a second it reads a frame, runs YOLO on it and calls `interpret()`. A time-stamped reading goes into the log **only when it differs from the previous one**, so a minute of sitting still is one line, not 120.
-* `ask(log, question)` is the reasoner. It pastes the log and your question into one prompt, tells Qwen to answer in at most three sentences using only what is in the log, and sends it to Ollama with thinking off.
-
-Run it through VNC and a window opens with YOLO's boxes, the current reading and the seconds left. Press q to stop watching early. Over plain ssh add `--headless` and you get the same thing minus the window.
-
-```
-(.venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 5 $ python yolo_to_qwen.py
-```
-
-It watches for a minute, saves the log to `watch_log.txt` and asks Qwen the default question. The terminal looks something like this:
-
-```
-14:02:11 nobody
-14:02:19 1 person(s) at right/far
-14:02:24 1 person(s) at center/close
-14:02:51 nobody
-
-4 lines saved to watch_log.txt
-asking Qwen...
-
-Qwen (18.4 s):
-One person came in from the right, moved close to the camera, and left after about half a minute. ...
-```
 
 ---
 
@@ -289,6 +258,8 @@ Stuck? A kitchen that tells you who raided the fridge. A desk that reports wheth
 Use storyboards and/or [Verplank diagrams](https://ccrma.stanford.edu/courses/250a-fall-2004/IDSketchbok.pdf).
 
 \*\*\***Insert ideas, sketches, Verplank diagrams and storyboards for your night-time interaction here.**\*\*\*
+
+<img width="1645" height="1279" alt="49f209699be69ce7671f768e68a0fe42" src="https://github.com/user-attachments/assets/4ebf3c31-77eb-4a2b-977b-b2caa9e953b9" />
 
 ## Prep for Part 2
 
