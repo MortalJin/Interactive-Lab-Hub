@@ -39,8 +39,8 @@ A radio-style device that lets people "tune in" to different eras of New York. M
  
 ## 2. How the Idea Evolved
  
-(sketches and photos for each version go here)
- 
+<img width="1800" height="660" alt="image" src="https://github.com/user-attachments/assets/c96dfa6f-383d-4fd5-8e08-525e1fbf0716" />
+
 ### v0: "Something about time"
 My SATOR SQUARE project in Lab 3 got me interested in time. My first thought was a general "time machine" you could ask about any year. Honestly, at this stage it was a generative AI chatbot with a costume on.
  
